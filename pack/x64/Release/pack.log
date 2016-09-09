@@ -1,0 +1,31 @@
+﻿生成启动时间为 2016/9/9 16:12:59。
+     1>项目“E:\xuyujie\c++tool\pack\pack\pack.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt Lock.cpp Upack.cpp main.cpp
+         Lock.cpp
+         Upack.cpp
+     1>Upack.cpp(13): warning C4005: 'MAX_PATH' : macro redefinition
+                 C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\windef.h(57) : see previous definition of 'MAX_PATH'
+     1>Upack.cpp(405): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>Upack.cpp(512): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>Upack.cpp(698): warning C4244: '=' : conversion from 'intptr_t' to 'long', possible loss of data
+     1>Upack.cpp(721): warning C4244: '=' : conversion from 'intptr_t' to 'long', possible loss of data
+     1>Upack.cpp(737): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Upack.cpp(738): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Upack.cpp(742): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\xuyujie\c++tool\pack\x64\Release\UPack.exe" /INCREMENTAL:NO /NOLOGO opencv_core246.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_objdetect246.lib opencv_photo246.lib opencv_video246.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\UPack.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\xuyujie\c++tool\pack\x64\Release\UPack.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\xuyujie\c++tool\pack\x64\Release\UPack.lib" /MACHINE:X64 x64\Release\Lock.obj
+         x64\Release\Upack.obj
+         x64\Release\main.obj
+         Generating code
+     1>e:\xuyujie\c++tool\pack\pack\upack.cpp(368): warning C4715: 'UPack::Pack' : not all control paths return a value
+         Finished generating code
+         pack.vcxproj -> E:\xuyujie\c++tool\pack\x64\Release\UPack.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\xuyujie\c++tool\pack\x64\Release\UPack.exe;#1" /manifest x64\Release\UPack.exe.intermediate.manifest
+     1>已完成生成项目“E:\xuyujie\c++tool\pack\pack\pack.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.70
